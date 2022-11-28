@@ -1,7 +1,7 @@
 # Handreiking BasisOrder Rijk
 
 <p class="addition" title="Ondertitel">
-***Voor leveranciers van de Rijksoverheid die e-orders ontvangen***
+<em>Voor leveranciers van de Rijksoverheid die e-orders ontvangen.</em>
 </p>
 
 ## Wat is de handreiking basisorder Rijk?

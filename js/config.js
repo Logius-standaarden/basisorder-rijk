@@ -13,8 +13,8 @@ var respecConfig = {
     // previousMaturity: "WV",
     content:
         {
-            "handreiking-basisorderrijk": "informative",
-            "overzicht-elementen-basisorderrijk": "informative",
+            "handreiking-basisorderrijk": "",
+            "overzicht-elementen-basisorderrijk": "",
         },
     editors:
         [
