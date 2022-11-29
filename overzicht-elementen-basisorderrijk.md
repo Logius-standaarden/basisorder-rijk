@@ -48,7 +48,7 @@
 |  4.5 | Land                        | Ja         | NL                    | Tweeletterige landcode |
 |  4.6 | Gewenste leverdatum         | Nee        | 2022-11-14            |  |
 
-\
+----
 
 |      | Totalen                     | Verplicht  | Voorbeeldvulling      | Opmerkingen |
 |-----:|-----------------------------|------------|-----------------------|----|
