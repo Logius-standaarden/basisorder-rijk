@@ -8,7 +8,6 @@
 |  1.4 | Valuta                      | Ja         | EUR                   |  |
 |  1.5 | Contractnummer / referentie | Nee        | 410023124             | Wordt gevuld indien aanwezig |
 |  1.6 | Offertereferentie           | Nee        | 310001201             | Wordt gevuld indien aanwezig |
-|------|-----------------------------|------------|-----------------------|----|
 
 |      | Gegevens klantpartij        | Verplicht  | Voorbeeldvulling      | Opmerkingen |
 |-----:|-----------------------------|------------|-----------------------|----|
@@ -23,7 +22,6 @@
 |  2.9 | Postadres - Postcode        | Nee        | 2844 NG               | Gevuld indien afwijkend van adres Klantpartij |
 | 2.10 | Postadres - Plaats          | Nee        | Den Haag              | Gevuld indien afwijkend van adres Klantpartij |
 | 2.11 | Postadres - Land            | Ja         | NL                    | Tweeletterige landcode |
-|------|-----------------------------|------------|-----------------------|----|
 
 |      | Gegevens leverancierpartij  | Verplicht  | Voorbeeldvulling      | Opmerkingen |
 |-----:|-----------------------------|------------|-----------------------|----|
@@ -34,7 +32,6 @@
 |  3.5 | Plaats                      | Nee        | Den Haag              |  |
 |  3.6 | Land                        | Ja         | NL                    | Tweeletterige landcode |
 |  3.7 | Contactpersoon              | Nee        | henk@leverancierbv.nl |  |
-|------|-----------------------------|------------|-----------------------|----|
 
 |      | Aflevergegevens             | Verplicht  | Voorbeeldvulling      | Opmerkingen |
 |-----:|-----------------------------|------------|-----------------------|----|
@@ -44,14 +41,12 @@
 |  4.4 | Plaats                      | Nee        | Den Haag              |  |
 |  4.5 | Land                        | Ja         | NL                    | Tweeletterige landcode |
 |  4.6 | Gewenste leverdatum         | Nee        | 2022-11-14            |  |
-|------|-----------------------------|------------|-----------------------|----|
 
 |      | Totalen                     | Verplicht  | Voorbeeldvulling      | Opmerkingen |
 |-----:|-----------------------------|------------|-----------------------|----|
 |  5.1 | Onderbedrag inclusief BTW   | Nee        | 242.00                |  |
 |  5.2 | Onderbedrag exclusief BTW   | Nee        | 200.00                |  |
 |  5.3 | Totaal BTW                  | Nee        | 42.00                 |  |
-|------|-----------------------------|------------|-----------------------|----|
 
 |      | Orderregels                 | Verplicht  | Voorbeeldvulling      | Opmerkingen |
 |-----:|-----------------------------|------------|-----------------------|----|
@@ -62,4 +57,3 @@
 |  6.5 | Stuksprijs                  | Ja         | 200.00                | Exclusief BTW |
 |  6.6 | BTW percentage              | Nee        | 21                    | Dit kan de waarde 0, 9 of 21 zijn |
 |  6.6 | Factuurregelbedrag ex BTW   | Ja         | 1000.00               |  |
-|------|-----------------------------|------------|-----------------------|----|
