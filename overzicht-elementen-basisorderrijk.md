@@ -1,7 +1,7 @@
 # Overzicht verplichte en optionele elementen voor de basisorder Rijk
 
 |      | Gegevens op hoofdniveau     | Verplicht  | Voorbeeldvulling      | Opmerkingen |
-|-----:|-----------------------------|------------|-----------------------|----|
+|------|-----------------------------|------------|-----------------------|----|
 |  1.1 | Inkoopordernummer           | Ja         | 1122334455            |  |
 |  1.2 | Orderdatum                  | Ja         | 2022-11-07            |  |
 |  1.3 | Orderomschrijving           | Nee        | Order voorbeeld 1     | Wordt gevuld indien aanwezig |
@@ -12,7 +12,7 @@
 <br />
 
 |      | Gegevens klantpartij        | Verplicht  | Voorbeeldvulling      | Opmerkingen |
-|-----:|-----------------------------|------------|-----------------------|----|
+|------|-----------------------------|------------|-----------------------|----|
 |  2.1 | Naam                        | Ja         | Logius                |  |
 |  2.2 | OIN                         | Ja         | 00000004003214345001  |  |
 |  2.3 | Adres                       | Nee        | Postbus 96810         | Straat en huisnummer dienen te worden samengevoegd in XML |
@@ -28,7 +28,7 @@
 <br />
 
 |      | Gegevens leverancierpartij  | Verplicht  | Voorbeeldvulling      | Opmerkingen |
-|-----:|-----------------------------|------------|-----------------------|----|
+|------|-----------------------------|------------|-----------------------|----|
 |  3.1 | Naam                        | Ja         | Leverancier B.V.      |  |
 |  3.2 | Identificatie               | Ja         | 60451258              | Standaard KvK nummer, optioneel vestigingsnummer of BTW  |
 |  3.3 | Adres                       | Nee        | Appelhof 1            | Straat en huisnummer dienen te worden samengevoegd in XML |
@@ -40,7 +40,7 @@
 <br />
 
 |      | Aflevergegevens             | Verplicht  | Voorbeeldvulling      | Opmerkingen |
-|-----:|-----------------------------|------------|-----------------------|----|
+|------|-----------------------------|------------|-----------------------|----|
 |  4.1 | Naam                        | Nee        | Ministerie ABC, loc X | Gevuld indien afwijkend van factuuradres Klantpartij |
 |  4.2 | Adres                       | Ja         | Buitenhof 16a         | Straat en huisnummer dienen te worden samengevoegd in XML |
 |  4.3 | Postcode                    | Nee        | 4321 KL               |  |
@@ -51,7 +51,7 @@
 <br />
 
 |      | Totalen                     | Verplicht  | Voorbeeldvulling      | Opmerkingen |
-|-----:|-----------------------------|------------|-----------------------|----|
+|------|-----------------------------|------------|-----------------------|----|
 |  5.1 | Onderbedrag inclusief BTW   | Nee        | 242.00                |  |
 |  5.2 | Onderbedrag exclusief BTW   | Nee        | 200.00                |  |
 |  5.3 | Totaal BTW                  | Nee        | 42.00                 |  |
@@ -59,7 +59,7 @@
 <br />
 
 |      | Orderregels                 | Verplicht  | Voorbeeldvulling      | Opmerkingen |
-|-----:|-----------------------------|------------|-----------------------|----|
+|------|-----------------------------|------------|-----------------------|----|
 |  6.1 | Orderregelnummer            | Ja         | 1                     |  |
 |  6.2 | Orderregelomschrijving      | Nee        | Kantoorinrichting     |  |
 |  6.3 | Aantal                      | Ja         | 5                     |  |
