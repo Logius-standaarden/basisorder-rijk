@@ -9,7 +9,7 @@
 |  1.5 | Contractnummer / referentie | Nee        | 410023124             | Wordt gevuld indien aanwezig |
 |  1.6 | Offertereferentie           | Nee        | 310001201             | Wordt gevuld indien aanwezig |
 
-\
+<br />
 
 |      | Gegevens klantpartij        | Verplicht  | Voorbeeldvulling      | Opmerkingen |
 |-----:|-----------------------------|------------|-----------------------|----|
@@ -25,7 +25,7 @@
 | 2.10 | Postadres - Plaats          | Nee        | Den Haag              | Gevuld indien afwijkend van adres Klantpartij |
 | 2.11 | Postadres - Land            | Ja         | NL                    | Tweeletterige landcode |
 
-\
+<br />
 
 |      | Gegevens leverancierpartij  | Verplicht  | Voorbeeldvulling      | Opmerkingen |
 |-----:|-----------------------------|------------|-----------------------|----|
@@ -37,7 +37,7 @@
 |  3.6 | Land                        | Ja         | NL                    | Tweeletterige landcode |
 |  3.7 | Contactpersoon              | Nee        | henk@leverancierbv.nl |  |
 
-\
+<br />
 
 |      | Aflevergegevens             | Verplicht  | Voorbeeldvulling      | Opmerkingen |
 |-----:|-----------------------------|------------|-----------------------|----|
@@ -48,7 +48,7 @@
 |  4.5 | Land                        | Ja         | NL                    | Tweeletterige landcode |
 |  4.6 | Gewenste leverdatum         | Nee        | 2022-11-14            |  |
 
-TEST
+<br />
 
 |      | Totalen                     | Verplicht  | Voorbeeldvulling      | Opmerkingen |
 |-----:|-----------------------------|------------|-----------------------|----|
@@ -56,7 +56,7 @@ TEST
 |  5.2 | Onderbedrag exclusief BTW   | Nee        | 200.00                |  |
 |  5.3 | Totaal BTW                  | Nee        | 42.00                 |  |
 
-\
+<br />
 
 |      | Orderregels                 | Verplicht  | Voorbeeldvulling      | Opmerkingen |
 |-----:|-----------------------------|------------|-----------------------|----|
