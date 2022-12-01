@@ -1,4 +1,4 @@
-# Handreiking BasisOrder Rijk
+# Handreiking basisorder Rijk
 
 <p class="addition" title="Ondertitel">
 <em>Voor leveranciers van de Rijksoverheid die e-orders ontvangen.</em>
