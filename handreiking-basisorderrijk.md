@@ -11,4 +11,4 @@ De handreiking basisorder Rijk beschrijft welke ordergegevens door de Rijksoverh
 In het overzicht in de onderstaande tabel vindt u alle ordergegevens die op een basisorder van het Rijk vermeld worden. De basisorder Rijk is gebaseerd op de [Peppol BIS standaard voor Ordering 3.2](https://docs.peppol.eu/poacc/upgrade-3/profiles/28-ordering/). Het omvat alle verplichte velden en de Rijksbreed gebruikte optionele velden.
 
 Laat u goed informeren door uw klant (de overheidsorganisatie) over het verder gebruik van het inkoopordernummer en indien van toepassing het contractnummer en/of de offertereferentie.
-Bijlagen kunnen worden toegevoegd als binair Base64 gecodeerd object. De totale bestandsgrootte van het order bericht (inclusief eventuele bijlagen) mag niet groter zijn dan 20 MB
+Bijlagen kunnen worden toegevoegd als binair base64 gecodeerd object. De totale bestandsgrootte van het order bericht (inclusief eventuele bijlagen) mag niet groter zijn dan 20 MB.

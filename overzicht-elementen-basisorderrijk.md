@@ -39,7 +39,7 @@
 
 <br />
 
-|      | Aflevergegevens             | Verplicht  | Voorbeeldvulling      | Opmerkingen |
+|      | Aflevergegevens             | Optioneel  | Voorbeeldvulling      | Opmerkingen |
 |------|-----------------------------|------------|-----------------------|----|
 |  4.1 | Naam                        | Nee        | Ministerie ABC, loc X | Gevuld indien afwijkend van factuuradres Klantpartij |
 |  4.2 | Adres                       | Ja         | Buitenhof 16a         | Straat en huisnummer dienen te worden samengevoegd in XML |
@@ -66,4 +66,4 @@
 |  6.4 | Artikelnaam                 | Ja         | Verstelbaar bureau    |  |
 |  6.5 | Stuksprijs                  | Ja         | 200.00                | Exclusief BTW |
 |  6.6 | BTW percentage              | Nee        | 21                    | Dit kan de waarde 0, 9 of 21 zijn |
-|  6.6 | Factuurregelbedrag ex BTW   | Ja         | 1000.00               |  |
+|  6.6 | Factuurregelbedrag          | Ja         | 1000.00               | Exclusief BTW |

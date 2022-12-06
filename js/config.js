@@ -5,7 +5,7 @@ var respecConfig = {
     specType: "HR",
     pubDomain: "ep",
     shortName: "basisorder-rijk",
-    publishDate: "2022-12-01",
+    publishDate: "2022-12-06",
     publishVersion: "0.7",
     title: "Handreiking basisorder Rijk",
     // previousPublishVersion: "(none)",
