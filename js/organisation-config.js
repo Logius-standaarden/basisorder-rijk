@@ -15,7 +15,6 @@ var organisationConfig = {
     nl_organisationPublishURL: "https://gitdocumentatie.logius.nl/publicatie/",
 
     // nl_logo refers to company logo
-    // defaults to https://tools.geostandaarden.nl/respec/style/logos/Geonovum.svg
     nl_logo: {
         src: "https://gitdocumentatie.logius.nl/publicatie/respec/style/logos/figure-logius.svg",
         alt: "Logius",
@@ -24,13 +23,23 @@ var organisationConfig = {
         width: 44,
         url: "https://www.logius.nl/standaarden",
     },
-	
-	localBiblio: {
-	"SemVer": {
-            href: "https://semver.org",
-            title: "Semantic Versioning 2.0.0",
-            authors: ["T. Preston-Werner"],
-            date: "June 2013"
-        }
+    
+    localBiblio: {
+        "Logius e-procurement": {
+            href: "https://www.logius.nl/diensten/e-procurement",
+            title: "Logius e-procurement",
+            status: "Informative",
+            publisher: "Logius",
+        },
+        "UBL-OHNL": {
+            href: "https://logius.nl/diensten/digiinkoop/hoe-werkt-het/ubl-ohnl",
+            titel: "UBL-OHNL",
+            publisher: "Logius",
+        },
+        "SETU (HR-XML) - OHNL": {
+            href: "https://logius.nl/diensten/digiinkoop/hoe-werkt-het/setu-hr-xml-ohnl",
+            titel: "SETU (HR-XML) - OHNL",
+            publisher: "Logius",
+        },
     },
 }

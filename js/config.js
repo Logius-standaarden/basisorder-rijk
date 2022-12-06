@@ -3,32 +3,41 @@ var respecConfig = {
     specStatus: "WV",
     //voor specType mogelijkheden zie https://github.com/Logius-standaarden/respec/wiki/specType
     specType: "HR",
-    pubDomain: "dk",
-    shortName: "template",
-    publishDate: "2022-06-24",
-    publishVersion: "0.0.1",
-    title: "titleText",
+    pubDomain: "ep",
+    shortName: "basisorder-rijk",
+    publishDate: "2022-12-01",
+    publishVersion: "0.7",
+    title: "Handreiking basisorder Rijk",
     // previousPublishVersion: "(none)",
-    //  previousPublishDate: "(none)",
-    //  previousMaturity: "WV",
-    content: {"ch01": "informative", "ch02": ""},
+    // previousPublishDate: "(none)",
+    // previousMaturity: "WV",
+    content:
+        {
+            "handreiking-basisorderrijk": "",
+            "overzicht-elementen-basisorderrijk": "",
+        },
     editors:
         [
             {
-                name: "Logius Standaarden",
+                name: "HR",
                 company: "Logius",
-                companyURL: "https://github.com/Logius-standaarden",
-            }
+                companyURL: "https://www.logius.nl",
+            },
+            {
+                name: "MvB",
+                company: "Logius",
+                companyURL: "https://www.logius.nl",
+            },
         ],
     authors:
         [
             {
-                name: "Logius Standaarden",
+                name: "Logius Standaarden - team e-procurement",
                 company: "Logius",
-                companyURL: "https://github.com/Logius-standaarden",
+                companyURL: "https://logius.nl/diensten/e-procurement",
             }
         ],
-    github: "https://github.com/Logius-standaarden/API-Design-Rules",
+    github: "https://github.com/Logius-standaarden/ep-basisorder-rijk",
 
 
     // Controls if linked "§" section markers are added to a document
@@ -36,7 +45,7 @@ var respecConfig = {
 
     // this parameter will add the tag_name of the latest release to the document Title
     // only set this parameter when a release has been set
-    nl_addReleaseTagTitle: true,
+    nl_addReleaseTagTitle: false,
 
     // if nl_markdownEmbedImageInFigure is set to true images in markdown generated content will be surrounded with <figures> element
     // so that figures can be linked are be a part of table of figures
