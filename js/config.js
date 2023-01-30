@@ -5,8 +5,8 @@ var respecConfig = {
     specType: "HR",
     pubDomain: "ep",
     shortName: "basisorder-rijk",
-    publishDate: "2022-12-06",
-    publishVersion: "0.7",
+    publishDate: "2023-01-30",
+    publishVersion: "0.8",
     title: "Handreiking basisorder Rijk",
     // previousPublishVersion: "(none)",
     // previousPublishDate: "(none)",
@@ -52,10 +52,10 @@ var respecConfig = {
     nl_markdownEmbedImageInFigure: true,
 
     // Create PDF and link to file in header:
-    // alternateFormats: [
-    //     {
-    //         label: "pdf",
-    //         uri: "rename-me.pdf",
-    //     },
-    // ],
+    alternateFormats: [
+        {
+            label: "pdf",
+            uri: "handreiking-basisorder-rijk-v0.8.pdf",
+        },
+    ],
 };
