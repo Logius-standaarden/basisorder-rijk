@@ -39,7 +39,7 @@
 
 <br />
 
-|      | Aflevergegevens - optioneel | Verplicht [^1] | Voorbeeldvulling      | Opmerkingen |
+|      | Aflevergegevens - optioneel | Verplicht <sup>[1](#f1)</sup> | Voorbeeldvulling      | Opmerkingen |
 |------|-----------------------------|------------|-----------------------|----|
 |  4.1 | Naam                        | Nee        | Ministerie ABC, locatie X |  |
 |  4.2 | Adres                       | Ja         | Buitenhof 16a         | Gevuld indien afwijkend van factuuradres Klantpartij; straat en huisnummer dienen te worden samengevoegd in XML |
@@ -50,7 +50,7 @@
 
 <br />
 
-|      | Totalen - optioneel         | Verplicht <sup>[24](#f1)</sup> | Voorbeeldvulling      | Opmerkingen |
+|      | Totalen - optioneel         | Verplicht <sup>[1](#f1)</sup> | Voorbeeldvulling      | Opmerkingen |
 |------|-----------------------------|------------|-----------------------|----|
 |  5.1 | Onderbedrag inclusief BTW   | Nee        | 242.00                |  |
 |  5.2 | Onderbedrag exclusief BTW   | Nee        | 200.00                |  |
