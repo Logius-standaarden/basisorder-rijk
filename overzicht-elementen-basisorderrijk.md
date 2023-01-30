@@ -50,7 +50,7 @@
 
 <br />
 
-|      | Totalen - optioneel         | Verplicht [^1] | Voorbeeldvulling      | Opmerkingen |
+|      | Totalen - optioneel         | Verplicht <sup>[24](#f1)</sup> | Voorbeeldvulling      | Opmerkingen |
 |------|-----------------------------|------------|-----------------------|----|
 |  5.1 | Onderbedrag inclusief BTW   | Nee        | 242.00                |  |
 |  5.2 | Onderbedrag exclusief BTW   | Nee        | 200.00                |  |
@@ -69,4 +69,4 @@
 |  6.6 | BTW percentage              | Nee        | 21                    | Dit kan de waarde 0, 9 of 21 zijn |
 |  6.6 | Factuurregelbedrag          | Ja         | 1000.00               | Exclusief BTW |
 
-[^1]: De verplichtingen in deze kolom gelden alleen als het optioneel gegevensblok is opgenomen in het bericht.
+<br /><sup><a name="f1"><dfn>24</dfn></a>: De verplichtingen in deze kolom gelden alleen als het optioneel gegevensblok is opgenomen in het bericht.</sup>
