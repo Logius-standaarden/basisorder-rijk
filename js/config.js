@@ -1,11 +1,14 @@
 var respecConfig = {
+    useLogo: true,
+    useLabel: true,
+    license: "cc0",
     //voor specStatus mogelijkheden zie https://github.com/Logius-standaarden/respec/wiki/specStatus
     specStatus: "WV",
     //voor specType mogelijkheden zie https://github.com/Logius-standaarden/respec/wiki/specType
     specType: "HR",
     pubDomain: "ep",
     shortName: "basisorder-rijk",
-    publishDate: "2023-01-30",
+    publishDate: "2023-01-31",
     publishVersion: "0.8",
     title: "Handreiking basisorder Rijk",
     // previousPublishVersion: "(none)",
