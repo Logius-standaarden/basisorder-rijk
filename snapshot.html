@@ -96,17 +96,171 @@ dd{margin-left:0}
 }
 </style>
 <meta name="description" content="Deze handreiking is geschreven om leveranciers van de Rijksoverheid een richtlijn te geven over de set ordergegevens die door de Rijksoverheid opgenomen worden in een elektronische order (e-order). Door deze richtlijn te volgen kunnen e-orders van de Rijksoverheid eenduidig (geautomatiseerd) worden verwerkt.">
+<style>
+.sidelabel{position:fixed;-webkit-transform-origin:top right;right:100%;top:0;-webkit-transform:rotate(-90deg);padding:4px 50px 4px 10px;color:#fff;white-space:nowrap;z-index:1}
+</style>
 <script id="initialUserConfig" type="application/json">{
+  "nl_organisationName": "Logius",
+  "nl_organisationStylesURL": "https://gitdocumentatie.logius.nl/publicatie/respec/style/",
+  "nl_organisationPublishURL": "https://gitdocumentatie.logius.nl/publicatie/",
+  "logos": [
+    {
+      "src": "https://gitdocumentatie.logius.nl/publicatie/respec/style/logos/figure-logius.svg",
+      "alt": "Logius",
+      "id": "Logius",
+      "height": 77,
+      "width": 44,
+      "url": "https://www.logius.nl/standaarden"
+    }
+  ],
+  "addSectionLinks": true,
+  "localizationStrings": {
+    "en": {
+      "wv": "Draft",
+      "cv": "Recommendation",
+      "vv": "Proposed recommendation",
+      "def": "Definitive version",
+      "basis": "Document",
+      "eo": "Outdated version",
+      "tg": "Rescinded version",
+      "no": "Norm",
+      "st": "Standard",
+      "im": "Information model",
+      "pr": "Guideline",
+      "hr": "Guide",
+      "wa": "Proposed recommendation",
+      "al": "General",
+      "bd": "Governance documentation",
+      "bp": "Best practice"
+    },
+    "nl": {
+      "wv": "Werkversie",
+      "cv": "Consultatieversie",
+      "vv": "Versie ter vaststelling",
+      "def": "Vastgestelde versie",
+      "basis": "Document",
+      "eo": "Verouderde versie",
+      "tg": "Teruggetrokken versie",
+      "no": "Norm",
+      "st": "Standaard",
+      "im": "Informatiemodel",
+      "pr": "Praktijkrichtlijn",
+      "hr": "Handreiking",
+      "wa": "Werkafspraak",
+      "al": "Algemeen",
+      "bd": "Beheerdocumentatie",
+      "bp": "Best practice"
+    }
+  },
+  "specTypeText": {
+    "en": {
+      "no": "Norm",
+      "st": "Standard",
+      "im": "Information model",
+      "pr": "Guideline",
+      "hr": "Guide",
+      "wa": "Proposed recommendation",
+      "al": "General",
+      "bd": "Governance documentation",
+      "bp": "Best practice"
+    },
+    "nl": {
+      "no": "Norm",
+      "st": "Standaard",
+      "im": "Informatiemodel",
+      "pr": "Praktijkrichtlijn",
+      "hr": "Handreiking",
+      "wa": "Werkafspraak",
+      "al": "Algemeen",
+      "bd": "Beheerdocumentatie",
+      "bp": "Best practice"
+    }
+  },
+  "specStatusText": {
+    "en": {
+      "wv": "Draft",
+      "cv": "Recommendation",
+      "vv": "Proposed recommendation",
+      "def": "Definitive version",
+      "basis": "Document",
+      "eo": "Outdated version",
+      "tg": "Rescinded version"
+    },
+    "nl": {
+      "wv": "Werkversie",
+      "cv": "Consultatieversie",
+      "vv": "Versie ter vaststelling",
+      "def": "Vastgestelde versie",
+      "basis": "Document",
+      "eo": "Verouderde versie",
+      "tg": "Teruggetrokken versie"
+    }
+  },
+  "sotdText": {
+    "nl": {
+      "sotd": "Status van dit document",
+      "def": "Dit is de definitieve versie van dit document. Wijzigingen naar aanleiding van consultaties zijn doorgevoerd.",
+      "wv": "Dit is een werkversie die op elk moment kan worden gewijzigd, verwijderd of vervangen door andere documenten. Het is geen door het TO goedgekeurde consultatieversie.",
+      "cv": "Dit is een door het TO goedgekeurde consultatieversie. Commentaar over dit document kan gestuurd worden naar ",
+      "vv": "Dit is een definitief concept van de nieuwe versie van dit document. Wijzigingen naar aanleiding van consultaties zijn doorgevoerd.",
+      "basis": "Dit is een document zonder officiÃ«le status."
+    },
+    "en": {
+      "sotd": "Status of This Document",
+      "def": "This is the definitive version of this document. Edits resulting from consultations have been applied.",
+      "wv": "This is a draft that could be altered, removed or replaced by other documents. It is not a recommendation approved by TO.",
+      "cv": "This is a proposed recommendation approved by TO. Comments regarding this document may be sent to ",
+      "vv": "This is the definitive concept of this document. Edits resulting from consultations have been applied.",
+      "basis": "This document has no official standing."
+    }
+  },
+  "labelColor": {
+    "def": "#154273",
+    "wv": "#32a852"
+  },
+  "licenses": {
+    "cc0": {
+      "name": "Creative Commons 0 Public Domain Dedication",
+      "short": "CC0",
+      "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "image": "https://tools.geostandaarden.nl/respec/style/logos/CC-Licentie.svg"
+    },
+    "cc-by": {
+      "name": "Creative Commons Attribution 4.0 International Public License",
+      "short": "CC-BY",
+      "url": "https://creativecommons.org/licenses/by/4.0/legalcode",
+      "image": "https://tools.geostandaarden.nl/respec/style/logos/cc-by.svg"
+    },
+    "cc-by-nd": {
+      "name": "Creative Commons Naamsvermelding-GeenAfgeleideWerken 4.0 Internationaal",
+      "short": "CC-BY-ND",
+      "url": "https://creativecommons.org/licenses/by-nd/4.0/legalcode.nl",
+      "image": "https://tools.geostandaarden.nl/respec/style/logos/cc-by-nd.svg"
+    }
+  },
+  "localBiblio": {
+    "SemVer": {
+      "href": "https://semver.org",
+      "title": "Semantic Versioning 2.0.0",
+      "authors": [
+        "T. Preston-Werner"
+      ],
+      "date": "June 2013"
+    }
+  },
+  "useLogo": true,
+  "useLabel": true,
+  "license": "cc0",
   "specStatus": "WV",
   "specType": "HR",
   "pubDomain": "ep",
   "shortName": "basisorder-rijk",
-  "publishDate": "2023-01-30",
+  "publishDate": "2023-01-31",
   "publishVersion": "0.8",
   "title": "Handreiking basisorder Rijk",
   "content": {
-    "handreiking-basisorderrijk": "",
-    "overzicht-elementen-basisorderrijk": ""
+    "handreiking-basisorder-rijk": "",
+    "overzicht-elementen-basisorder-rijk": ""
   },
   "editors": [
     {
@@ -128,7 +282,6 @@ dd{margin-left:0}
     }
   ],
   "github": "https://github.com/Logius-standaarden/ep-basisorder-rijk",
-  "addSectionLinks": true,
   "nl_addReleaseTagTitle": false,
   "nl_markdownEmbedImageInFigure": true,
   "alternateFormats": [
@@ -138,12 +291,64 @@ dd{margin-left:0}
     }
   ]
 }</script>
-<link rel="stylesheet" href="https://www.w3.org/StyleSheets/TR/2016/base.css"></head>
+<link rel="stylesheet" href="https://gitdocumentatie.logius.nl/publicatie/respec/style/base.css"></head>
 
-<body class="informative toc-inline"><h1 id="title" class="title">Handreiking basisorder Rijk</h1>
+<body class="h-entry informative toc-inline"><div class="head">
+    <a class="logo" href="https://www.logius.nl/standaarden"><img alt="Logius" height="77" id="Logius" src="https://gitdocumentatie.logius.nl/publicatie/respec/style/logos/figure-logius.svg" width="44">
+  </a> <h1 id="title" class="title">Handreiking basisorder Rijk</h1>
+    
+    <h2>
+      Logius Handreiking<br>
+      Werkversie
+      <time class="dt-published" datetime="01/31/2023">31 januari 2023</time>
+    </h2>
+    <dl>
+      <dt>Deze versie:</dt><dd class="status">
+              <a class="u-url status" href="https://logius-standaarden.github.io/ep-basisorder-rijk/">https://logius-standaarden.github.io/ep-basisorder-rijk/</a>
+            </dd><dt>Laatst gepubliceerde versie:</dt><dd>
+              <a href="https://gitdocumentatie.logius.nl/publicatie/ep/basisorder-rijk/">https://gitdocumentatie.logius.nl/publicatie/ep/basisorder-rijk/</a>
+            </dd>
+      <dt>Laatste werkversie:</dt><dd><a href="https://logius-standaarden.github.io/ep-basisorder-rijk/">https://logius-standaarden.github.io/ep-basisorder-rijk/</a></dd>
+      
+      
+      
+      
+      
+      <dt>Redacteurs:</dt>
+      <dd class="editor p-author h-card vcard">
+    <span class="p-name fn">HR</span> (<a class="p-org org h-org" href="https://www.logius.nl">Logius</a>)
+  </dd><dd class="editor p-author h-card vcard">
+    <span class="p-name fn">MvB</span> (<a class="p-org org h-org" href="https://www.logius.nl">Logius</a>)
+  </dd>
+      
+      <dt>Auteur:</dt><dd class="editor p-author h-card vcard">
+    <span class="p-name fn">Logius Standaarden - team e-procurement</span> (<a class="p-org org h-org" href="https://logius.nl/diensten/e-procurement">Logius</a>)
+  </dd>
+      <dt>Doe mee:</dt><dd>
+    <a href="https://github.com/Logius-standaarden/ep-basisorder-rijk/">GitHub Logius-standaarden/ep-basisorder-rijk</a>
+  </dd><dd>
+    <a href="https://github.com/Logius-standaarden/ep-basisorder-rijk/issues/">Dien een melding in</a>
+  </dd><dd>
+    <a href="https://github.com/Logius-standaarden/ep-basisorder-rijk/commits/">Revisiehistorie</a>
+  </dd><dd>
+    <a href="https://github.com/Logius-standaarden/ep-basisorder-rijk/pulls/">Pull requests</a>
+  </dd>
+    </dl>
+    
+    
+    <p>
+          Dit document is ook beschikbaar in dit niet-normatieve formaat:
+          <a rel="alternate" href="handreiking-basisorder-rijk-v0.8.pdf">pdf</a>
+        </p>
+    <p class="copyright">
+          Dit document valt onder de volgende licentie: 
+          <a rel="license" href="https://creativecommons.org/publicdomain/zero/1.0/" class="subfoot">Creative Commons 0 Public Domain Dedication</a>.
+        </p>
+    <hr title="Separator for header">
+  </div>
   <section id="abstract" class="introductory"><h2>Samenvatting</h2><p>Deze handreiking is geschreven om leveranciers van de Rijksoverheid een richtlijn te geven over de set ordergegevens die door de Rijksoverheid opgenomen worden in een elektronische order (e-order). Door deze richtlijn te volgen kunnen e-orders van de Rijksoverheid eenduidig (geautomatiseerd) worden verwerkt.</p>
 </section>
-  <section id="sotd"></section><nav id="toc"><h2 class="introductory" id="inhoudsopgave">Inhoudsopgave</h2><ol class="toc"><li class="tocline"><a class="tocxref" href="#abstract">Samenvatting</a></li><li class="tocline"><a class="tocxref" href="#handreiking-basisorder-rijk"><bdi class="secno">1. </bdi>Handreiking basisorder Rijk</a><ol class="toc"><li class="tocline"><a class="tocxref" href="#wat-is-de-handreiking-basisorder-rijk"><bdi class="secno">1.1 </bdi>Wat is de handreiking basisorder Rijk?</a></li><li class="tocline"><a class="tocxref" href="#opmaken-basisorder-rijk"><bdi class="secno">1.2 </bdi>Opmaken basisorder Rijk</a></li><li class="tocline"><a class="tocxref" href="#technische-implementatie-basisorder-rijk"><bdi class="secno">1.3 </bdi>Technische implementatie basisorder Rijk</a></li></ol></li><li class="tocline"><a class="tocxref" href="#overzicht-verplichte-en-optionele-elementen-voor-de-basisorder-rijk"><bdi class="secno">2. </bdi>Overzicht verplichte en optionele elementen voor de basisorder Rijk</a></li></ol></nav><section id="handreiking-basisorder-rijk"><div class="header-wrapper"><h2 id="x1-handreiking-basisorder-rijk"><bdi class="secno">1. </bdi>Handreiking basisorder Rijk</h2><a class="self-link" href="#handreiking-basisorder-rijk" aria-label="Permalink for Section 1."></a></div>
+  <section id="sotd" class="introductory"><h2>Status van dit document</h2><p>Dit is een werkversie die op elk moment kan worden gewijzigd, verwijderd of vervangen door andere documenten. Het is geen door het TO goedgekeurde consultatieversie.</p></section><nav id="toc"><h2 class="introductory" id="inhoudsopgave">Inhoudsopgave</h2><ol class="toc"><li class="tocline"><a class="tocxref" href="#abstract">Samenvatting</a></li><li class="tocline"><a class="tocxref" href="#sotd">Status van dit document</a></li><li class="tocline"><a class="tocxref" href="#handreiking-basisorder-rijk"><bdi class="secno">1. </bdi>Handreiking basisorder Rijk</a><ol class="toc"><li class="tocline"><a class="tocxref" href="#wat-is-de-handreiking-basisorder-rijk"><bdi class="secno">1.1 </bdi>Wat is de handreiking basisorder Rijk?</a></li><li class="tocline"><a class="tocxref" href="#opmaken-basisorder-rijk"><bdi class="secno">1.2 </bdi>Opmaken basisorder Rijk</a></li><li class="tocline"><a class="tocxref" href="#technische-implementatie-basisorder-rijk"><bdi class="secno">1.3 </bdi>Technische implementatie basisorder Rijk</a></li></ol></li><li class="tocline"><a class="tocxref" href="#overzicht-verplichte-en-optionele-elementen-voor-de-basisorder-rijk"><bdi class="secno">2. </bdi>Overzicht verplichte en optionele elementen voor de basisorder Rijk</a></li></ol></nav><section id="handreiking-basisorder-rijk"><div class="header-wrapper"><h2 id="x1-handreiking-basisorder-rijk"><bdi class="secno">1. </bdi>Handreiking basisorder Rijk</h2><a class="self-link" href="#handreiking-basisorder-rijk" aria-label="Permalink for Section 1."></a></div>
 <p class="addition" title="Ondertitel">
 <em>Voor leveranciers van de Rijksoverheid die e-orders ontvangen.</em>
 </p>
@@ -778,4 +983,4 @@ function hidePanel(panel) {
   panel.hidden = true;
   panel.classList.remove("docked");
 }
-})()</script><script src="https://www.w3.org/scripts/TR/2021/fixup.js"></script></body></html>
+})()</script><div class="sidelabel" style="background-color: #32a852;">Logius Handreiking - Werkversie</div><script src="https://www.w3.org/scripts/TR/2021/fixup.js"></script></body></html>
