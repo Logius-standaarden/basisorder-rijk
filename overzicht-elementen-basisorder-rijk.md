@@ -52,7 +52,7 @@
 
 ## Totalen (optioneel)
 
-|      | Gegevensnaam                 | Verplicht&nbsp;<sup>[1](#f1)</sup> | Voorbeeldvulling      | Opmerkingen |
+|      | Gegevensnaam                | Verplicht&nbsp;<sup>[1](#f1)</sup> | Voorbeeldvulling      | Opmerkingen |
 |------|-----------------------------|------------|-----------------------|----|
 |  5.1 | Onderbedrag inclusief BTW   | Nee        | 242.00                |  |
 |  5.2 | Onderbedrag exclusief BTW   | Nee        | 200.00                |  |
@@ -61,7 +61,7 @@
 
 ## Orderregels
 
-|      | Gegevensnaam                 | Verplicht  | Voorbeeldvulling      | Opmerkingen |
+|      | Gegevensnaam                | Verplicht  | Voorbeeldvulling      | Opmerkingen |
 |------|-----------------------------|------------|-----------------------|----|
 |  6.1 | Orderregelnummer            | Ja         | 1                     |  |
 |  6.2 | Orderregelomschrijving      | Nee        | Kantoorinrichting     |  |
