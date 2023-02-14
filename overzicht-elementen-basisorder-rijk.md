@@ -21,7 +21,7 @@
 |  2.4 | Postcode                    | Nee        | 2509 JE               |  |
 |  2.5 | Plaats                      | Nee        | Den Haag              |  |
 |  2.6 | Land                        | Ja         | NL                    | Tweeletterige landcode |
-|  2.7 | Contactpersoon              | Nee        | jan@rijksoverheid.nl  | E-mailadres contactpersoon |
+|  2.7 | Contactpersoon              | Ja         | jan@rijksoverheid.nl  | E-mailadres contactpersoon |
 |  2.8 | Postadres - Adres           | Nee        | Princenhof 1          | Gevuld indien afwijkend van adres Klantpartij |
 |  2.9 | Postadres - Postcode        | Nee        | 2844 NG               | Gevuld indien afwijkend van adres Klantpartij |
 | 2.10 | Postadres - Plaats          | Nee        | Den Haag              | Gevuld indien afwijkend van adres Klantpartij |
@@ -44,10 +44,10 @@
 |      | Gegevensnaam                | Verplicht&nbsp;<sup>[1](#f1)</sup> | Voorbeeldvulling      | Opmerkingen |
 |------|-----------------------------|------------|-----------------------|----|
 |  4.1 | Naam                        | Nee        | Ministerie ABC, locatie X |  |
-|  4.2 | Adres                       | Ja         | Buitenhof 16a         | Gevuld indien afwijkend van factuuradres Klantpartij; straat en huisnummer dienen te worden samengevoegd in XML |
+|  4.2 | Adres                       | Ja&nbsp;<sup>[1](#f1)</sup> | Buitenhof 16a | Gevuld indien afwijkend van factuuradres Klantpartij; straat en huisnummer dienen te worden samengevoegd in XML |
 |  4.3 | Postcode                    | Nee        | 4321 KL               |  |
 |  4.4 | Plaats                      | Nee        | Den Haag              |  |
-|  4.5 | Land                        | Ja         | NL                    | Tweeletterige landcode |
+|  4.5 | Land                        | Ja&nbsp;<sup>[1](#f1)</sup> | NL | Tweeletterige landcode |
 |  4.6 | Gewenste leverdatum         | Nee        | 2022-11-14            |  |
 
 ## Totalen (optioneel)
@@ -56,7 +56,7 @@
 |------|-----------------------------|------------|-----------------------|----|
 |  5.1 | Onderbedrag inclusief BTW   | Nee        | 242.00                |  |
 |  5.2 | Onderbedrag exclusief BTW   | Nee        | 200.00                |  |
-|  5.3 | Regeltotaal exclusief BTW   | Ja         | 200.00                | Regeltotaal exclusief BTW, kortingen en toeslagen |
+|  5.3 | Regeltotaal exclusief BTW   | Ja&nbsp;<sup>[1](#f1)</sup> | 200.00 | Regeltotaal exclusief BTW, kortingen en toeslagen |
 |  5.4 | Totaal BTW                  | Nee        | 42.00                 |  |
 
 ## Orderregels
