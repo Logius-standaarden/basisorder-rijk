@@ -71,4 +71,4 @@
 |  6.6 | BTW percentage              | Nee        | 21                    | Dit kan de waarde 0, 9 of 21 zijn |
 |  6.6 | Factuurregelbedrag          | Ja         | 1000.00               | Exclusief BTW |
 
-<sup><a name="f1"><dfn>1</dfn></a>: De verplichtingen in deze kolom gelden alleen als het optioneel gegevensblok is opgenomen in het bericht.</sup>
+<sup><a name="f1"><dfn>1</dfn></a>: De verplichtingen in deze kolom gelden alleen als het optionele gegevensblok is opgenomen in het bericht.</sup>
