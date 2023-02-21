@@ -6,6 +6,7 @@ var respecConfig = {
     specStatus: "WV",
     //voor specType mogelijkheden zie https://github.com/Logius-standaarden/respec/wiki/specType
     specType: "HR",
+    sotdCommitteeName: "EG Berichten en EG eOrdering"
     pubDomain: "ep",
     shortName: "basisorder-rijk",
     publishDate: "2023-01-31",
