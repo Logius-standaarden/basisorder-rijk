@@ -14,4 +14,4 @@ Bijlagen kunnen worden toegevoegd als binair base64 gecodeerd object. De totale 
 ## Technische implementatie basisorder Rijk
 Naast deze handreiking zijn er aanvullende documenten die helpen bij de technische implementatie.  Deze technische documentatie is bedoeld voor softwareleveranciers en serviceproviders. 
 
-Deze technische documentatie kan worden geraadpleegd op de website van Logius. In het zip-bestand [Technische implementatie Basisorder](https://github.com/Logius-standaarden/ep-basisorder-rijk/TIBR-2023-03.zip) vindt u de berichtspecificaties en voorbeeldbestanden van de door de Rijksoverheid ondersteunde standaard (Peppol BIS 3).
+Deze technische documentatie kan worden geraadpleegd op de website van Logius. In het zip-bestand `correcte link volgt nog` vindt u de berichtspecificaties en voorbeeldbestanden van de door de Rijksoverheid ondersteunde standaard (Peppol BIS 3).
