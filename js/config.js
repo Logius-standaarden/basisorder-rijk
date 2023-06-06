@@ -9,10 +9,10 @@ var respecConfig = {
   pubDomain: "ep",
   shortName: "basisorder-rijk",
   publishDate: "2023-01-31",
-  publishVersion: "0.8",
+  publishVersion: "0.8.0",
   title: "Handreiking basisorder Rijk",
-  previousPublishVersion: "(none)",
-  previousPublishDate: "(none)",
+  previousPublishVersion: "0.7.0",
+  previousPublishDate: "2023-12-14",
   previousMaturity: "WV",
   content:
     {
