@@ -44,6 +44,25 @@ var respecConfig = {
         ],
     github: "https://github.com/Logius-standaarden/ep-basisorder-rijk",
 
+    // overwrite sotdText from organisationConfig
+    sotdText: {
+        nl: {
+          sotd: "Status van dit document",
+          def: "Dit is de definitieve versie van dit document. Wijzigingen naar aanleiding van consultaties zijn doorgevoerd.",
+          wv: `Dit is een werkversie die op elk moment kan worden gewijzigd, verwijderd of vervangen door andere documenten. Het is geen door ${respecConfig.sotdCommitteeNameNL} goedgekeurde consultatieversie.`,
+          cv: `Dit is een door ${respecConfig.sotdCommitteeNameNL} goedgekeurde consultatieversie. Commentaar over dit document kan gestuurd worden naar `,
+          vv: `Dit is een definitief concept van de nieuwe versie van dit document. Wijzigingen naar aanleiding van consultaties zijn doorgevoerd.`,
+          basis: "Dit is een document zonder offici&euml;le status.",
+        },
+        en: {
+          sotd: "Status of This Document",
+          def: `This is the definitive version of this document. Edits resulting from consultations have been applied.`,
+          wv: `This is a draft that could be altered, removed or replaced by other documents. It is not a recommendation approved by ${respecConfig.sotdCommitteeNameEN}.`,
+          cv: `This is a proposed recommendation approved by ${respecConfig.sotdCommitteeNameEN}. Comments regarding this document may be sent to `,
+          vv: `This is the definitive concept of this document. Edits resulting from consultations have been applied.`,
+          basis: "This document has no official standing.",
+        },
+      },
 
     // Controls if linked "§" section markers are added to a document
     addSectionLinks: true,
