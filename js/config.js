@@ -13,7 +13,7 @@ var respecConfig = {
   title: "Handreiking basisorder Rijk",
   previousPublishVersion: "(none)",
   previousPublishDate: "(none)",
-  previousMaturity: "(none)",
+  previousMaturity: "WV",
   content:
     {
       "handreiking-basisorder-rijk": "",
