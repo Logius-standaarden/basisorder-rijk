@@ -11,9 +11,9 @@ var respecConfig = {
   publishDate: "2023-01-31",
   publishVersion: "0.8.0",
   title: "Handreiking basisorder Rijk",
-  previousPublishVersion: "0.7.0",
-  previousPublishDate: "2023-12-14",
-  previousMaturity: "WV",
+  previousPublishVersion: "(none)",
+  previousPublishDate: "(none)",
+  previousMaturity: "(none)",
   content:
     {
       "handreiking-basisorder-rijk": "",
