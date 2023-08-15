@@ -8,12 +8,12 @@ var respecConfig = {
   specType: "HR",
   pubDomain: "ep",
   shortName: "basisorder-rijk",
-  publishDate: "2023-01-31",
-  publishVersion: "0.8.0",
+  publishDate: "2023-06-12",
+  publishVersion: "0.9.0",
   title: "Handreiking basisorder Rijk",
-  previousPublishVersion: "(none)",
-  previousPublishDate: "(none)",
-  previousMaturity: "(none)",
+  previousPublishVersion: "0.8.2",
+  previousPublishDate: "2023-05-12",
+  previousMaturity: "WV",
   content:
     {
       "handreiking-basisorder-rijk": "",
@@ -77,7 +77,7 @@ var respecConfig = {
   alternateFormats: [
     {
       label: "pdf",
-      uri: "handreiking-basisorder-rijk-v0.8.pdf",
+      uri: "handreiking-basisorder-rijk-v0.9.pdf",
     },
   ],
 };
