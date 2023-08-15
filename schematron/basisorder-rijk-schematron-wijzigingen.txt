@@ -1,6 +1,0 @@
-Basisorder rijk -  Schematron wijzigingen
-=========================================
-
-Datum       Versie  Auteur  Wat
-----------  ------  ------  --------------------------------------------------------------------------------------------------
-2023-05-12  0.7.0   MvB     * Initiële versie met 9 nieuwe business rules.

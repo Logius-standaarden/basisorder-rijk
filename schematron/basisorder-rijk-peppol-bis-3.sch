@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <schema xmlns="http://purl.oclc.org/dsdl/schematron" queryBinding="xslt2">
-  <title>Extra validatie behorend bij de basisorder Rijk (versie maart 2023)</title>
+  <title>Extra validatie behorend bij de basisorder Rijk - versie voor Peppol BIS 3 (ORDER ONLY)</title>
   <!--
   
-    Versie basisfactuur Rijk - 0.8.0 (maart 2023)
-    Datum basisfactuur Rijk  - 3 april 2023
-    Versie schematron        - 0.7.0
-    Datum schematron         - 12 mei 2023
+    Versie basisorder Rijk   - 0.9.0 (juni 2023)
+    Datum basisorder Rijk    - 12 juni 2023
+    Versie schematron        - 0.7.1
+    Datum schematron         - 15 augustus 2023
   
   -->
   <ns prefix="cac" uri="urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2"/>
