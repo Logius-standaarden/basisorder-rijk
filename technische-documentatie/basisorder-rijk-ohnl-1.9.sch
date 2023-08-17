@@ -7,8 +7,8 @@
     
     Versie basisorder Rijk   - 0.9.0 (juni 2023)
     Datum basisorder Rijk    - 12 juni 2023
-    Versie schematron        - 0.7.0
-    Datum schematron         - 15 augustus 2023
+    Versie schematron        - 0.8.0
+    Datum schematron         - 17 augustus 2023
   
   -->
   <ns prefix="cac" uri="urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2"/>
@@ -25,7 +25,7 @@
     </rule>
     <rule context="/doc:Order/cac:BuyerCustomerParty/cac:Party">
       <!-- BR-NL-BOR-24 - BOR-fout-8 - cac:PartyIdentification (precies 1 keer) -->
-      <assert test="count(cac:PartyIdentification) eq 1">BR-NL-BOR-24: Het element 'doc:Order/cac:BuyerCustomerParty/cac:Party/cac:PartyIdentification' moet precies éénmaal voorkomen.</assert>
+      <assert test="count(cac:PartyIdentification) eq 1">BR-NL-BOR-24: Het element 'doc:Order/cac:BuyerCustomerParty/cac:Party/cac:PartyIdentification' dient eenmaal voor te komen.</assert>
     </rule>
     <rule context="/doc:Order/cac:BuyerCustomerParty/cac:Party/cac:PartyIdentification">
       <!-- BR-NL-BOR-25 - BOR-fout-9 - cbc:ID (verplicht) -->
@@ -33,7 +33,7 @@
     </rule>
     <rule context="/doc:Order/cac:BuyerCustomerParty/cac:Party/cac:PartyName">
       <!-- BR-NL-BOR-27 - BOR-fout-12 - cbc:Name (verplicht) -->
-      <assert test="string-length(cbc:Name) gt 0">BR-NL-BOR-27: Het element 'doc:Order/cac:BuyerCustomerParty/cac:Party/cac:PartyName/cbc:Name' is verplicht (Basisorder 2.1 Naam).</assert>
+      <assert test="string-length(cbc:Name) gt 0">BR-NL-BOR-27: Het element 'doc:Order/cac:BuyerCustomerParty/cac:Party/cac:PartyName/cbc:Name' is verplicht (Basisorder 2.1 Naam klant).</assert>
     </rule>
     <rule context="/doc:Order/cac:SellerSupplierParty/cac:Party/cac:PartyIdentification">
       <!-- BR-NL-BOR-28 - BOR-fout-20 - cbc:ID (verplicht) -->
@@ -41,7 +41,7 @@
     </rule>
     <rule context="/doc:Order/cac:SellerSupplierParty/cac:Party/cac:PartyName">
       <!-- BR-NL-BOR-30 - BOR-fout-23 - cbc:Name (verplicht) -->
-      <assert test="string-length(cbc:Name) gt 0">BR-NL-BOR-30: Het element 'doc:Order/cac:SellerSupplierParty/cac:Party/cac:PartyName/cbc:Name' is verplicht (Basisorder 3.1 Naam).</assert>
+      <assert test="string-length(cbc:Name) gt 0">BR-NL-BOR-30: Het element 'doc:Order/cac:SellerSupplierParty/cac:Party/cac:PartyName/cbc:Name' is verplicht (Basisorder 3.1 Naam leverancier).</assert>
     </rule>
     <rule context="/doc:Order/cac:OrderLine/cac:LineItem">
       <!-- BR-NL-BOR-31 - BOR-fout-27 - cbc:ID (verplicht) -->
