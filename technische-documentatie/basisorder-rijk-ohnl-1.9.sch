@@ -7,8 +7,8 @@
     
     Versie basisorder Rijk   - 0.9.0 (juni 2023)
     Datum basisorder Rijk    - 12 juni 2023
-    Versie schematron        - 0.8.0
-    Datum schematron         - 17 augustus 2023
+    Versie schematron        - 0.8.1
+    Datum schematron         - 18 augustus 2023
   
   -->
   <ns prefix="cac" uri="urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2"/>
@@ -54,7 +54,7 @@
   <pattern id="type-restrictions">
     <rule context="/doc:Order">
       <!-- BR-NL-BOR-21 - BOR-fout-2 - doc:Order/cbc:CustomizationID (waarde 1.9) -->
-      <assert test="cbc:CustomizationID eq '1.9'">BR-NL-BOR-21: Het element 'doc:Order/cbc:CustomizationID' moet altijd de waarde '1.9' te bevatten (huidige waarde: '<value-of select="cbc:CustomizationID" />').</assert>
+      <assert test="cbc:CustomizationID eq '1.9'">BR-NL-BOR-21: Het element 'doc:Order/cbc:CustomizationID' moet altijd de waarde '1.9' hebben (huidige waarde: '<value-of select="cbc:CustomizationID" />').</assert>
     </rule>
     <rule context="/doc:Order/cac:BuyerCustomerParty/cac:Party/cac:PartyIdentification/cbc:ID">
       <!-- BR-NL-BOR-26 - BOR-fout-10 - @schemeAgencyID (waarde NL) EN @schemeAgencyName (waarde OIN) -->

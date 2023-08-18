@@ -5,6 +5,11 @@
 > _Inhoudelijke wijzigingen van de basisorder Rijk worden voorafgegaan door (BOR)._
 
 
+## [v0.9.3] - 2023-08-18
+
+- (BOR) Meldingstekst BR-NL-BOR-21 aangepast vanwege uniformiteit in [Schematron BOR Peppol BIS 3](./technische-documentatie/basisorder-rijk-peppol-bis-3.sch) (v0.8.0 → v0.8.1).
+
+
 ## [v0.9.2] - 2023-08-17
 
 ### Added
@@ -14,8 +19,8 @@
 
 ### Changed
 
-- (BOR) Meldingsteksten [Schematron BOR OHNL 1.9](./technische-documentatie/basisorder-rijk-ohnl-1.9.sch) aangepast vanwege reviews (v0.7.0 -> v0.8.0).
-- (BOR) Meldingsteksten [Schematron BOR Peppol BIS 3](./technische-documentatie/basisorder-rijk-peppol-bis-3.sch) aangepast vanwege reviews (v0.7.1 -> v0.8.0).
+- (BOR) Meldingsteksten [Schematron BOR OHNL 1.9](./technische-documentatie/basisorder-rijk-ohnl-1.9.sch) aangepast vanwege reviews (v0.7.0 → v0.8.0).
+- (BOR) Meldingsteksten [Schematron BOR Peppol BIS 3](./technische-documentatie/basisorder-rijk-peppol-bis-3.sch) aangepast vanwege reviews (v0.7.1 → v0.8.0).
 - Directorystructuur aangepast ten behoeve van de technische documentatie. Links aangepast waar nodig.
 
 ### Removed
