@@ -5,6 +5,21 @@
 > _Inhoudelijke wijzigingen van de basisorder Rijk worden voorafgegaan door (BOR)._
 
 
+## [v0.9.4] - 2023-08-25
+
+### Added
+
+- (BOR) In alle `assert` elementen de attributen `id` (ten behoeve van het melding-ID) en `flag` (ten behoeve van het severity level) toegevoegd in [Schematron BOR Peppol BIS 3](./technische-documentatie/basisorder-rijk-peppol-bis-3.sch) (v0.8.1 → v0.9.0).
+
+
+
+## [v0.9.3] - 2023-08-18
+
+### Changed
+
+- (BOR) Meldingstekst BR-NL-BOR-21 aangepast vanwege uniformiteit in [Schematron BOR Peppol BIS 3](./technische-documentatie/basisorder-rijk-peppol-bis-3.sch) (v0.8.0 → v0.8.1).
+
+
 ## [v0.9.2] - 2023-08-17
 
 ### Added
@@ -14,8 +29,8 @@
 
 ### Changed
 
-- (BOR) Meldingsteksten [Schematron BOR OHNL 1.9](./technische-documentatie/basisorder-rijk-ohnl-1.9.sch) aangepast vanwege reviews.
-- (BOR) Meldingsteksten [Schematron BOR Peppol BIS 3](./technische-documentatie/basisorder-rijk-peppol-bis-3.sch) aangepast vanwege reviews.
+- (BOR) Meldingsteksten [Schematron BOR OHNL 1.9](./technische-documentatie/basisorder-rijk-ohnl-1.9.sch) aangepast vanwege reviews (v0.7.0 → v0.8.0).
+- (BOR) Meldingsteksten [Schematron BOR Peppol BIS 3](./technische-documentatie/basisorder-rijk-peppol-bis-3.sch) aangepast vanwege reviews (v0.7.1 → v0.8.0).
 - Directorystructuur aangepast ten behoeve van de technische documentatie. Links aangepast waar nodig.
 
 ### Removed
@@ -27,11 +42,11 @@
 
 ### Added
 
-- (BOR) [Schematron](./technische-documentatie/basisorder-rijk-ohnl-1.9.sch) voor validatie OHNL 1.9 order (ORDER ONLY) toegevoegd → 13 nieuwe validatieregels toegevoegd (v0.7.0 - 1e werkversie).
+- (BOR) [Schematron](./technische-documentatie/basisorder-rijk-ohnl-1.9.sch) voor validatie OHNL 1.9 order (ORDER ONLY) toegevoegd → 13 nieuwe validatieregels toegevoegd (v0.7.0).
 
 ### Changed
 
-- Naamgeving oorspronkelijke schematron gewijzigd naar [basisorder-rijk-peppol_bis_3.sch](./technische-documentatie/basisorder-rijk-peppol-bis-3.sch) (v0.7.0 → v0.7.1) vanwege extra schematron OHNL-1.9.
+- Naamgeving oorspronkelijke schematron gewijzigd naar [basisorder-rijk-peppol_bis_3.sch](./technische-documentatie/basisorder-rijk-peppol-bis-3.sch) vanwege extra schematron OHNL-1.9 (v0.7.0 → v0.7.1).
 
 
 ## [v0.9.0] - 2023-06-12
@@ -52,7 +67,7 @@
 
 ### Added
 
-- (BOR) Schematron voor validatie Peppol BIS 3 order (ORDER ONLY) toegevoegd (v0.7.0) → 9 nieuwe validatieregels.
+- (BOR) Schematron voor validatie Peppol BIS 3 order (ORDER ONLY) toegevoegd → 9 nieuwe validatieregels (v0.7.0).
 - Logboek van wijzigingen voor schematron toegevoegd.
 - Eerste gereviewde werkversie van de nieuwe publicatievorm voor de <em>Handreiking basisOrder Rijk</em>, gebaseerd op de eerdere niet-publiekelijke werkversie van maart 2022 (v0.8.1).
 
