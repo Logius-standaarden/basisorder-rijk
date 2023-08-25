@@ -5,7 +5,17 @@
 > _Inhoudelijke wijzigingen van de basisorder Rijk worden voorafgegaan door (BOR)._
 
 
+## [v0.9.4] - 2023-08-25
+
+### Added
+
+- (BOR) In alle `assert` elementen de attributen `id` (ten behoeve van het melding-ID) en `flag` (ten behoeve van het severity level) toegevoegd in [Schematron BOR Peppol BIS 3](./technische-documentatie/basisorder-rijk-peppol-bis-3.sch) (v0.8.1 → v0.9.0).
+
+
+
 ## [v0.9.3] - 2023-08-18
+
+### Changed
 
 - (BOR) Meldingstekst BR-NL-BOR-21 aangepast vanwege uniformiteit in [Schematron BOR Peppol BIS 3](./technische-documentatie/basisorder-rijk-peppol-bis-3.sch) (v0.8.0 → v0.8.1).
 
