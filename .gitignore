@@ -1,0 +1,5 @@
+# Ignore Apple directory meta-files
+.DS_Store
+
+# Ignore snapshot.html - dit wordt gemaakt door ReSpec
+snapshot.html
